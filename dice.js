@@ -48,7 +48,7 @@ if (gamePlaying){
     document.querySelector('#score-'+activePlayer).textContent=score[activePlayer];
 
 //checking for a winner
-if (score[activePlayer] >=20 ){
+if (score[activePlayer] >=100 ){
         document.querySelector('#name-'+activePlayer).textContent='Winner!';
 
         //remove the dice display
